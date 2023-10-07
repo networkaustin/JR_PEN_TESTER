@@ -27,7 +27,7 @@ Note: Before running ```msfconsole``` you may want to run ```msfupdate``` to upd
 1. Click on the Terminal icon
 2. Type ```msfconsole``` into the command line
 
-![Directions][def]
+<img src="https://github.com/networkaustin/JR_PEN_TESTER/blob/main/Stuff/Metasploit_intro_1.png">
 
 Let's go over a few things before we get carried away:
 
