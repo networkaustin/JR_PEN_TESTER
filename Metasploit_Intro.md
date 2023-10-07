@@ -44,9 +44,17 @@ Let's go over a few things before we get carried away:
   * In the Attackbox, located in /opt/metasploit-framework/embedded/framework/modules
   * List all with the command ```tree -L 1 encoders/ encoders/```
 * Evasion: Modules that will specifically try to evade antivirus software.
+  * In the Attackbox, located in /opt/metasploit-framework/embedded/framework/modules
+  * List all with the command ```tree -L 1 evasion/ evasion/```
 * Exploits: List of exploits organized by target system.
+  * In the Attackbox, located in /opt/metasploit-framework/embedded/framework/modules
+  * List all with the command ```tree -L 1 exploits/ exploits/```
 * NOPs: Stands for No OPeration and they will do nothing and are used as a buffer for payload size consistency
+  * In the Attackbox, located in /opt/metasploit-framework/embedded/framework/modules
+  * List all with the command ```tree -L 1 nops/ nops/```
 * Payloads: Codes that run on target systems
+  * In the Attackbox, located in /opt/metasploit-framework/embedded/framework/modules
+  * List all with the command ```tree -L 1 payloads/ payloads/```
   * Four different directories under Payloads:
     * Adapters: Wraps single payloads to convert them into different formats
     * Singles: Self-contained payloads that do not need to download an additional component to run.
@@ -58,6 +66,8 @@ Let's go over a few things before we get carried away:
 * Post: Useful in the final stage of penetration testing, "Post Exploitation"
 
 ### Section 2 Questions
+
+Hint: Read the text above
 
 #### What is the name of the code taking advantage of a flaw on the target system?
 
@@ -98,6 +108,8 @@ Exploits are ranked in the search menu based on their reliability:
 * ManualRanking
 
 ### Section 3 Questions
+
+Hint: Read the text above
 
 #### How would you search for a module related to Apache?
 
@@ -169,5 +181,3 @@ Take note of this in the Summary section:
 "It would be best if you also had used the ms17_010_eternalblue exploit to gain access to the target VM."
 
 Give it a shot! Go back to the "Working with modules" section and see if you can get it to work.
-
-[def]: .\THM\JR_PEN_TESTER\Stuff\Metasploit_intro_1.png
